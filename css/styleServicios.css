@@ -1,0 +1,97 @@
+/* ========================================================================== Services starts here ========================================================================== */
+
+.service{
+  width: 95%;
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service img{
+    max-width: 100%;
+}
+
+.item{
+    width: 22%;
+    margin: 10px;
+}
+
+.item img{
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* ========================================================================== Services starts here ========================================================================== */
+
+.servicios{
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.servicios-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicios-item{
+    width: 30%;
+    position:relative;
+    overflow: hidden;
+}
+
+.servicios-item img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.servicios-img{
+    transition: all 0.5s;
+}
+
+.servicios-text{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    transform: translateY(100%);
+    transition: all 0.5s ease-out;
+}
+
+.servicios-item:hover .servicios-text{
+    transform: translateY(0%);
+}
+
+.servicios-item:hover .servicios-img{
+    transform: scale(1.15);
+}
+
+.servicios-text h2{
+    font-size: 1.2em;
+    font-family: 'open_sanslight';
+}
+
+.servicios-text p{
+    text-align: justify;   
+}
+
+.servicios-text a{
+    display: block;
+    width: 100px;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 10px;
+    border: 3px solid #fff;
+}
+
+.servicios-text a:hover{
+    background: rgba(51, 51, 51, 0.5);
+}
