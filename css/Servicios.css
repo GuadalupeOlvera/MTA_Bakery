@@ -1,0 +1,89 @@
+.servicios-individuales{
+    width: 100%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.Serv-container{
+   	display: flex;
+    justify-content: space-between;
+}
+
+.serv-item{
+    position:relative;
+    overflow: hidden;
+}
+
+.serv-item img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#imagen{
+	width: 330px;
+	height: 250px;
+	margin-top: 0em;
+	text-align: center;
+}
+
+.serv-text{
+	float: right;
+	width: 65%;
+	text-align: justify;
+	color: #666;
+	margin-left: 20px;
+}
+
+.serv-text p{
+	font-family: 'open_sansregular';
+	font-size: 11pt;
+}
+
+section .nav-serv{
+	width: 250px;
+	margin-right: 40px;
+}
+
+section .nav-serv ul{
+	list-style: none;
+	text-decoration: none;
+}
+
+section .nav-serv ul li{
+	font-size:10pt;
+	font-family: 'open_sansregular';
+	margin: 15px 10px 10px 15px;
+	width: 160px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 0px 25px 25px 0px;
+	background-color: #00ccff;
+	padding-left: 10px;
+	text-align: left;
+	box-shadow: 5px 0px 10px #939393;
+	-webkit-transition:padding-left 0.6s;
+}
+
+section .nav-serv ul li:hover{
+	padding-left: 30px;
+}
+
+section .nav-serv ul li a:link{
+	text-decoration: none;
+}
+
+section .nav-serv ul li a{
+  color: #fff;
+}
+
+section .nav-serv ul li a:hover{
+  color: #6f7678; 
+  text-decoration: none;
+}
+
+.serv-text .boton-img{
+	width: 120px;
+	height: 80px;
+	position: center;
+}
