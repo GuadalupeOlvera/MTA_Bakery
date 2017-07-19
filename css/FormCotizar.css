@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+/*Contact sectiom*/
+
+.section-content-cotizar{
+  text-align: center; 
+}
+
+.cotizar{  
+  color: #fff;
+  position: fixed;
+  z-index: 100;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+  display: none;
+}
+
+.cerrar{
+  font-weight: 900;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.cerrar a{
+  text-decoration: none;
+}
+
+.contact-section-cotizar{
+  padding-top: 10px;
+  padding-left: 27%;
+}
+
+.contact-section-cotizar .col-md-6{
+  width: 50%;
+}
+
+.form-group{
+  margin-top: 5px;
+}
+
+label{
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+
+.form-control{
+  font-size: 1.3em;
+  color: #080808;
+  width: 100%;
+}
+
+textarea.form-control {
+    height: 135px;
+}
+
+.submit{
+  font-size: 1.5em;
+  float: left;
+  width: 100px;
+  background: #2bbbdf;
+  color: #fff;
+  margin-top: 3%;
+}
+
+.submit:hover{
+  cursor: pointer;
+}
+
+.container-form-cotizar{
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.section-header{
+  padding-top: 20px;
+}
